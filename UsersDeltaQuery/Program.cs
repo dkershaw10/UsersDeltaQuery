@@ -14,9 +14,12 @@ namespace UsersDeltaQuery
             // Create a static dictionary to store config parameters
             private static Dictionary<string, string> _config = new Dictionary<string, string>() {
             //Adding Items to the Collection
-                {"clientId", "410c97f1-b895-49f4-a48a-3b0b7d911e67" },
-                {"clientSecret", "+@![{p:e=l#0#A[@o{B@]>|(:$*-:(R:;%j@:=/:q{d]#^;.&DA&8(z}^#q^|#:" },
-                {"tenantId", "adatumisv.onmicrosoft.com" },
+                // Add your client id
+                {"clientId", "" },
+                // Add your client secret or password
+                {"clientSecret", "" },
+                // Add your tenantId - like contoso.onmicrosoft.com
+                {"tenantId", "" },
                 {"authorityFormat", "https://login.microsoftonline.com/{0}/v2.0" },
                 {"replyUri", "https://localhost" }
             };
