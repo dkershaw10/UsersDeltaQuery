@@ -1,0 +1,2 @@
+# UsersDeltaQuery
+.NET Core app
