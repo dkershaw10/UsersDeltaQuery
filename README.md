@@ -7,7 +7,7 @@
 2. Open VS Code - make sure you have the the c# extension
 3. Open folder (with the .sln) in VS Code
 4. When it finishes opening, click yes to resolve any required C# elements and also click to restore packages.  See later if this doesn't happen and you need to still restore.  
-4. Go to app registration.  Register a new single tenant app, and create a new secret.  Also get the client id.
+4. Go to app registration.  Register a new single tenant app, and create a new secret.  Also get the client id. Confige the app with User.ReadWrite.All and then **grant** the app this permission.
 5. Update the Config class in the Program.cs file with your app's co-ordinates.
 7. In VS Code, Debug -> Open Configuration, and then click "Add Configuration" button. Then select an appropriate option (.NET: Launch .Net Core Console App)
   * Change "program" to the same execuatable name as in the existing .Net Core console app config
